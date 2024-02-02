@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Web Resume</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+            opacity: 0;
+            animation: fadeIn 1s ease-in-out forwards;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        header {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #8e44ad; /* Purple color */
+            color: #fff;
+            box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header img {
+            width: 200px; /* Increased size */
+            height: 200px; /* Increased size */
+            border-radius: 50%;
+            border: 5px solid #fff;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+            margin-bottom: 10px; /* Adjust the margin to create space below the image */
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        header p {
+            margin: 5px 0;
+        }
+
+        section {
+            margin: 20px;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            transition: transform 0.3s ease-in-out;
+            margin-bottom: 30px;
+        }
+
+        section:hover {
+            transform: scale(1.02);
+            box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            color: #8e44ad; /* Purple color */
+            border-bottom: 2px solid #8e44ad; /* Purple color */
+            padding-bottom: 5px;
+            transition: color 0.3s ease-in-out;
+        }
+
+        h2:hover {
+            color: #6c3483; /* Darker purple on hover */
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .counter-number {
+            font-family: 'Arial', sans-serif;
+            color: #6c3483; /* Darker purple color */
+            font-size: 16px;
+            text-align: center;
+            margin-top: 20px; /* Adjust the margin as needed */
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #8e44ad; /* Purple color */
+            color: #fff;
+            /* Remove the position: fixed property */
+            box-shadow: 0px -3px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s ease-in-out;
+        }
+
+        footer a:hover {
+            color: #6c3483; /* Darker purple on hover */
+        }
+
+        /* Responsive Design */
+        @media only screen and (max-width: 600px) {
+            section {
+                margin: 10px;
+            }
+
+            header img {
+                width: 150px; /* Adjusted size for small screens */
+                height: 150px; /* Adjusted size for small screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="mypic.jpg" alt="Photo of Raghuram Manohar Reddy">
+        <h1><b>RAGHURAM MANOHAR REDDY</b></h1>
+        <p>Hyderabad, Telangana | raghurammanoharreddy@gmail.com | +91-6309372858 | <a href="https://www.linkedin.com/in/raghuram-manohar-reddy-196a91214" target="_blank">LinkedIn</a></p>
+    </header>
+
+    <section>
+        <h2><b>ACADEMIC PROFILE</b></h2>
+        <p><b>Degree/Certificate</b><br><b>B.Tech. CSE | </b><i>Anurag University, Ghatkesar | </i><i>2021-2025</i> <b> | CGPA-9.01 </b>(till 5th Semester)<br><b>SENIOR SECONDARY (XI-XII)</b> | <i>MPC | 2019-2020</i><b> | Percentage-97.8</b><br><b>SECONDARY (X)</b> | <i>2018-2019</i><b> | GPA-9.3</b></p>
+    </section>
+
+    <section>
+        <h2><b>SKILLS</b></h2>
+        <p><b>Programming Languages :</b><br><ul style="list-style: circle;"><li>JAVA</li><li>C</li><li>Python</li><li>R Programming</li><li>Linux</li></ul><br><b>Cloud Computing :</b><ul style="list-style: circle;"><li>Amazon Web Services (AWS) </li></ul><br><b>Web Technology :</b><ul style="list-style: circle;"><li>HTML</li><li>CSS</li><li>Javascript</li></ul><br><b>SQL,DBMS</b><br><br><b>Operating System</b><br><br><b>Computer Networks</b><br><br><b>Microsoft Office</b><br><br><b>Soft Skills :</b><ul style="list-style: circle;"><li>Good Communication Skills</li><li>Optimistic</li><li>Multi-tasking</li><li>Team Building</li><li>Creative</li></ul><br><b>Area of Interests :</b><ul style="list-style: circle;"><li>Cloud Computing</li><li>Data Structures and Algorithms</li><li>Web Development</li></ul></p>
+    </section>
+
+    <section>
+        <h2><b>INTERNSHIP/TRAINING</b></h2>
+        <p><ul style="list-style: circle;"><li><b>Cloud Virtual Internship at AICTE-EduSkills</b></li><br><li><b>Web Developer Internship at Bharat Intern</b></li></ul></p>
+    </section>
+
+    <section>
+        <h2><b>PROJECTS</b></h2>
+        <p><ul style="list-style: circle;"><li><b>Cloud Resume</b></li><br><b>Description :</b> Developed and implemented a Cloud Resume utilizing cloud computing technologies to demonstrate proficiency in cloud platforms and enhance personal branding. <br><br><b>Exposure :</b> AWS services include S3, CloudFront, Route53, DynamoDB, API Gateway and Lambda, HTML, CSS, Javascript, Python, Github, CI/CD . <br><br><li><b>AWS Hosted Web-App</b><br><br></li><b>Description :</b>Developed and deployed a dynamic web application leveraging AWS services for seamless scalability, enhanced performance, and efficient backend processing. <br><br><b>Exposure :</b>AWS services including Amplify, Lambda, API Gateway, DynamoDB, Identity and Access Management. <br><br><li><b>Farmers Interaction Platform (Front-End)</b></li><br><b>Description :</b>Developed a front-end web application where farmers can interact with other farmers and Agricultural experts in the form of voice, chat, photo and can solve their problems, the web Application also has News related to Agriculture sector. <br><br><b>Exposure :</b>HTML,CSS,Bootstrap,Javascript. </ul></p>
+    </section>
+
+    <section>
+        <h2><b>CERTIFICATIONS</b></h2>
+        <p><ul style="list-style: circle;"><li>AWS Certified Cloud Practitioner from AWS</li><br><li>Cloud Engineer Learning Path from Google Cloud Skills Boost</li><br><li>Java Programming Fundamentals in Infosys Springboard</li><br><li>C for Everyone in Coursera</li><br><li>Python Certification in Hackerrank</li><br><li>Golden Badge(5 star) in problem solving</li><br><li>Data Structures in Infosys Springboard</li><br><li>SQL Database for Beginners in Infosys Springboard</li><br></ul></p>
+    </section>
+
+    <section>
+        <h2><b>POSITION OF RESPONSIBILITY</b></h2>
+        <p><ul style="list-style: circle;"><li><b>Problem Designing team lead of APJ Abdul Kalam Hackers Academy (college coding club) </b></li></ul></p>
+    </section>
+
+    <section>
+        <h2><b>LANGUAGES KNOWN</b></h2>
+        <p><ul style="list-style: circle;"><li><b>English</b></li><br><li><b>Telugu</b></li><br><li><b>Hindi</b></li></ul></p>
+    </section>
+
+    <section>
+        <h2><b>HOBBIES</b></h2>
+        <p><ul style="list-style: circle;"><li><b>Travelling</b></li><br><li><b>Fitness</b></li></ul></p>
+    </section>
+
+    <section>
+        <h2><b>DECLARATION</b></h2>
+        <p><b>Hereby I declare that all the above-mentioned information is true and correct to the best of my knowledge.</b></p>
+    </section>
+
+    <div class="counter-number nav-item nav-link text-white-50 font-os font-size-16 active">Couldn't read views</div>
+
+    <footer>
+        <p>Designed and coded by <b>Raghuram Manohar Reddy</b> | © 2024</p>
+    </footer>
+
+    <script src="./index.js"></script>
+</body>
+</html>
